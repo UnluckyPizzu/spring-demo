@@ -18,7 +18,17 @@ public class TrackCoach implements Coach {
 		// TODO Auto-generated method stub
 		return fortuneService.getFortune();
 	}
+	
+	// add an init method
+	
+	public void doMyStuff() {
+		System.out.println("I'm MORBING!");
+	}
+	// add a destroy method
 
+	public void endedMyStuff() {
+		System.out.println("It's Morbing time!");
+	}
 }
 
 
